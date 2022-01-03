@@ -3,7 +3,7 @@
 # Created by: AJ Canlas
 
 # configuration file
-source /Users/aaroncanlas/Documents/Repository/sysad/config/sysad.cfg
+source $HOME/Documents/Repositories/sysad/config/sysad.cfg
 
 
 # function to print the help function
