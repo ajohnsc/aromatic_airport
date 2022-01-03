@@ -1,0 +1,12 @@
+Vagrant.configure("2") do |config|
+
+	config.vm.define "basic" do |basic|
+		basic.vm.box = "ubuntu/focal64"
+		basic.vm.provider "virtualbox" do |basicvm|
+			basicvm.memory = 2048
+			basicvm.cpus = 1
+		end
+		basic.vm.hostname = "basic.ajohnsc.com"
+	end
+
+endc
